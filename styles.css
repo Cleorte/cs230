@@ -1,0 +1,16 @@
+table,
+th,
+td{
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+#TableHeader{
+  font-size: 400%;
+}
+
+#hyperlink{
+  text-align: right;
+}
