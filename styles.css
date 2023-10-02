@@ -1,16 +1,46 @@
 table,
 th,
-td{
+td {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
   margin: auto;
 }
 
-#TableHeader{
+#TableHeader {
   font-size: 400%;
 }
 
-#hyperlink{
+#hyperlink {
   text-align: right;
+}
+
+#button5 {
+  border: 1px;
+  border-radius: 7px;
+  font-size: 100px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: blue;
+  color: aquamarine;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: aqua;
+}
+
+p {
+  font-size: 40px;
+}
+
+p[lang="Fr"] {
+  font-size: 30px;
+}
+
+div > p{
+  background-color: chartreuse;
+  font-family: fantasy;
 }
