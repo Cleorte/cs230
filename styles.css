@@ -40,7 +40,34 @@ p[lang="Fr"] {
   font-size: 30px;
 }
 
-div > p{
+div > p {
   background-color: chartreuse;
   font-family: fantasy;
+}
+
+#p6 {
+  color: aliceblue;
+  background-color: rgb(18, 12, 70);
+  padding: 30px;
+  margin: 30px;
+  border: 20px solid rgb(110, 13, 134);
+  width: 350px;
+  position: relative fixed;
+}
+
+#p7 {
+  color: aliceblue;
+  background-color: rgb(59, 165, 33);
+  padding: 100px;
+  margin: 35px;
+  border: 30px solid rgb(13, 96, 134);
+  width: 800px;
+}
+
+#b7 {
+  border: 1px;
+  border-radius: 7px;
+  font-size: 50px;
+  position: fixed;
+  right: 30px;
 }
